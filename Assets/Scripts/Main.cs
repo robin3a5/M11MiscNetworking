@@ -63,6 +63,14 @@ public class Main : NetworkBehaviour {
         inputPort.enabled = true;
     }
 
+    public override void OnDestroy()
+    {
+        base.OnDestroy();
+        if(NetworkManager.Singleton != null){
+            NetworkManager.Singleton.OnClientDisconnectCallback -= OnDisconnect;
+        }
+    }
+
     private bool ValidateSettings()
     {
         IPAddress ip;

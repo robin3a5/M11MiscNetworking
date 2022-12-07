@@ -140,6 +140,8 @@ public class LobbyManager : NetworkBehaviour
 
     private void HostOnClientConnected(ulong clientId)
     {
+            Debug.Log("In client connected");
+
         EnableStartIfAllReady();
     }
 

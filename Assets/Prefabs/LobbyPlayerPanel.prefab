@@ -42,7 +42,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 145.52, y: -50.3}
-  m_SizeDelta: {x: 291.0323, y: 100.3}
+  m_SizeDelta: {x: 291.74, y: 100.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &378167119910916221
 CanvasRenderer:
@@ -96,8 +96,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   txtName: {fileID: 378167119951620460}
   txtReady: {fileID: 4942098552061495866}
-  btnKick: {fileID: 420786314744106669}
   pnlColor: {fileID: 489774141330825152}
+  btnKick: {fileID: 420786314744106669}
 --- !u!114 &6418265707896612044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
-  m_MinWidth: 280
+  m_MinWidth: 250
   m_MinHeight: 0
   m_PreferredWidth: -1
   m_PreferredHeight: -1
